@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagination.css">
+</head>
+<body>
+
+    <h1 class="main-heading">Product List</h1>
+
+    <!-- Search -->
+    <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search products...">
+        <button id="searchBtn">Search</button>
+        <div id="suggestionBox"></div>
+    </div>
+
+    <!-- Product List -->
+    <div id="productList"></div>
+
+    <!-- Pagination -->
+    <div class="pagination-wrapper">
+        <button id="prevBtn">Previous</button>
+        <span id="pageInfo"></span>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <script src="pagination.js"></script>
+</body>
+</html>
