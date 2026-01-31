@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <script src="productdetails.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div class="header-buttons">
+        <button id="backbtn">← Back</button>
+    </div>
+    
+    <div class="product-container">
+        <div class="product-wrapper">
+            <!-- Image Section -->
+            <div class="product-images">
+                <div class="main-image-container">
+                    <img id="thumbnail" src="" alt="Product Image">
+                </div>
+                <div class="image-gallery" id="imageGallery">
+                    <!-- Additional images will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- Product Info Section -->
+            <div class="product-info">
+                <h1 id="title" class="product-title"></h1>
+                
+                <div class="product-meta">
+                    <div class="rating">
+                        <span class="rating-value" id="rating">★ 0</span>
+                        <span>/ 5</span>
+                    </div>
+                    <div class="stock-status" id="availability"></div>
+                </div>
+                
+                <div class="product-price" id="price"></div>
+                
+                <p id="description" class="product-description"></p>
+                
+                <div>
+                    <h3 style="margin-bottom: 15px; color: #333;">Product Details</h3>
+                    <ul id="product-details" class="product-details-list">
+                        <!-- Details will be loaded here -->
+                    </ul>
+                </div>
+                
+                <div class="tags-section">
+                    <div class="tags-label">Tags:</div>
+                    <div id="tags"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
